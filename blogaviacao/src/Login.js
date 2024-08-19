@@ -1,6 +1,6 @@
-// src/Login.js
 import React, { useState } from 'react';
 import './Login.css';
+import logo from './logo.png';
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
@@ -14,6 +14,9 @@ function Login({ onLogin }) {
 
   return (
     <div className="login-container">
+        <header className="Login-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        </header>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

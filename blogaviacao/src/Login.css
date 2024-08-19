@@ -1,0 +1,37 @@
+/* src/Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    cursor: pointer;
+    color: #282c34;
+  }
+  

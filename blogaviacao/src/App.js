@@ -1,7 +1,22 @@
+// src/App.js
+import React, { useState } from 'react';
 import logo from './logo.png';
 import './App.css';
+import Login from './Login';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = (username, password) => {
+    // Lógica de autenticação pode ser adicionada aqui
+    // Se a autenticação for bem-sucedida:
+    setIsLoggedIn(true);
+  };
+
+  if (!isLoggedIn) {
+    return <Login onLogin={handleLogin} />;
+  }
+
   return (
     <div className="App">
       <header className="App-header">

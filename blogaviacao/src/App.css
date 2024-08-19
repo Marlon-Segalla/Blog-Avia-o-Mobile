@@ -27,10 +27,11 @@
   background-color: #282c34;
   min-height: 50vh;
   font-size: calc(10px + 2vmin);
-  font-size: white;
+  color: white;
 }
 .App-footer {
   background-color: #2f3239;
+  color: white;
 }
 
 .App-link {

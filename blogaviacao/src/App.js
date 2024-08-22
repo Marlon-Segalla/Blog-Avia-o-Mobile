@@ -24,7 +24,7 @@ function App() {
         <h1>AVIATION BLOG</h1>
       </header>
       <body className="App-body">
-        <p>Blog Aviação</p>
+        <h2>Blog Aviação</h2>
       </body>
       <footer className="App-footer">
         <p>Blog de Aviação Agosto de 2024</p>

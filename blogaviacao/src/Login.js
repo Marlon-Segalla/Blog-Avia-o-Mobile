@@ -20,7 +20,7 @@ function Login({ onLogin }) {
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="username">Usuário:</label>
+          <label htmlFor="username">Colaborador:</label>
           <input
             type="text"
             id="username"

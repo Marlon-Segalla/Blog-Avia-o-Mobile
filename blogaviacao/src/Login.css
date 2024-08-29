@@ -33,6 +33,10 @@
 }
 
 label {
+  background-color: #282c34, transparent 5%;
+  color: #e61639;
+  font-size: 20px;
+  font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
 }

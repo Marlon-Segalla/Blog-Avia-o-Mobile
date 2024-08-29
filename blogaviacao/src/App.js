@@ -27,7 +27,7 @@ function App() {
         <h2>Blog Aviação</h2>
       </body>
       <footer className="App-footer">
-        <p>Blog de Aviação Agosto de 2025</p>
+        <p>Blog de Aviação Agosto de 2077</p>
       </footer>
     </div>
   );

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Login.css';
-import logo from './logo.png';
 
 function Login({ onLogin }) {
   const [username, setUsername] = useState('');
@@ -15,12 +14,11 @@ function Login({ onLogin }) {
   return (
     <div className="login-container">
         <header className="Login-header">
-        <img src={logo} className="App-logo" alt="logo" />
         </header>
-      <h2>Login</h2>
+      <h2>AVIATION BLOG</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="username">Colaborador:</label>
+          <label htmlFor="username">USER:</label>
           <input
             type="text"
             id="username"
@@ -30,7 +28,7 @@ function Login({ onLogin }) {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Senha:</label>
+          <label htmlFor="password">PASSWORD:</label>
           <input
             type="password"
             id="password"

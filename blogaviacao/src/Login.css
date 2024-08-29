@@ -11,37 +11,46 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  background-color: #282c34;
+  /*background-color: #282c34;*/
   color: white;
-  }
+  background-image: url('C:\\DEV_P\\REACTJS\\Blog-Avia-o-Mobile\\blogaviacao\\src\\img\\esquad_1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  .Login-header {
-    background-color: #282c34;
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  
-  input {
-    padding: 0.5rem;
-    font-size: 1rem;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 1rem;
-  }
-  
-  button {
-    padding: 0.5rem 2rem;
-    font-size: 1rem;
-    background-color: #61dafb;
-    border: none;
-    cursor: pointer;
-    color: #282c34;
-  }
+.login-container h2 {
+  font-size: 100px;
+  color: #e61639;
+}
+
+.Login-header {
+  background-color: #282c34;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+  color: #282c34;
+}
   

@@ -23,6 +23,7 @@ function Login({ onLogin }) {
             <input
               type="text"
               id="username"
+              placeholder="USUÁRIO"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
@@ -31,6 +32,7 @@ function Login({ onLogin }) {
             <input
               type="password"
               id="password"
+              placeholder="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required

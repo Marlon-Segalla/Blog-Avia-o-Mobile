@@ -3,25 +3,43 @@
   padding: 0;
 }
 
-.login-container {
+.app{
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+}
+
+.login-container {
+  width: 80vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
-  /*background-color: #282c34;*/
+  flex-direction: row;
+  background-color: #282c34;
   color: white;
-  background-image: url('C:\\DEV_P\\REACTJS\\Blog-Avia-o-Mobile\\blogaviacao\\src\\img\\esquad_1.jpg');
+  /*background-image: url('C:\\DEV_P\\REACTJS\\Blog-Avia-o-Mobile\\blogaviacao\\src\\img\\esquad_1.jpg');*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .login-container h2 {
+  width: 50vh;
+  height: 20vh;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
   font-size: 100px;
-  color: #e61639;
+  color: #fff6e8;
+  background-color: #61dafb;
+  letter-spacing: -10px;
 }
 
 .Login-header {
@@ -29,16 +47,21 @@
 }
 
 .form-group {
-  margin-bottom: 1rem;
-}
+  width: 20vh;
+  height: 20vh;
+  margin: 0;
+  padding: 0;
 
-label {
-  background-color: #282c34, transparent 5%;
-  color: #e61639;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  background-color: #1a3763;
+  color: #fff6e8;
   font-size: 20px;
   font-weight: bold;
-  display: block;
-  margin-bottom: 0.5rem;
 }
 
 input {

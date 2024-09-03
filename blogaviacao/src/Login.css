@@ -29,6 +29,14 @@
   box-shadow: 0 8px 32px 0 rgba(0 ,0 , 0, 0.37);
 }
 
+.glass2 {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 20px;
+  border:1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 8px 32px 0 rgba(0 ,0 , 0, 0.37);
+}
 
 /*-----------*/
 
@@ -84,12 +92,11 @@
   text-align: center;
   flex-direction: column;
 
-  background-color: rgba(26, 55, 99, 0.3);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
   font-size: 15px;
   font-weight: bold;
-  color: rgba(255, 246, 232, 0.8);
+  color: rgba(255, 246, 232, 0.85);
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -99,13 +106,22 @@ input {
   height: 10px;
   margin: 10px;
 
-  border-radius: 10px;
-  border: solid 0.5px rgba(255, 246, 232, 0.1);
+  border-radius: 20px;
+  border: solid 0.5px rgba(255, 246, 232, 0.5);
 
-  background-color: rgba(26, 55, 99, 0.1);
+  background-color: rgba(26, 55, 99, 0.0);
 
   font-size: 1rem;
-  color: rgba(255, 246, 232, 0.5);
+  color: rgba(255, 246, 232, 0.8);
+}
+
+input::placeholder {
+  color: rgba(255, 246, 232, 0.8);
+}
+
+input:focus {
+  border: solid 0.5px rgba(255, 246, 232, 0.5);
+  outline: none;
 }
 
 button {

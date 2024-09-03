@@ -18,21 +18,19 @@ function Login({ onLogin }) {
         </header>
         <h2>AVIATION BLOG</h2>
         <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="username">USER:</label>
+          <div className="form-group glass2">
             <input
               type="text"
               id="username"
-              placeholder="ex: luis.sodre"
+              placeholder="USER"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required
             />
-            <label htmlFor="password">PASSWORD:</label>
             <input
               type="password"
               id="password"
-              placeholder="password"
+              placeholder="********"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required

@@ -18,24 +18,33 @@ function Login({ onLogin }) {
         </header>
         <h2>AVIATION BLOG</h2>
         <form onSubmit={handleSubmit}>
-          <div className="form-group glass2">
-            <input
-              type="text"
-              id="username"
-              placeholder="USER"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
-            />
-            <input
-              type="password"
-              id="password"
-              placeholder="********"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required
-            />
-            <button type="submit">Entrar</button>
+          <div className="login-box glass2">
+            <div className="text-box">
+              <span>WELCOME</span>
+            </div>
+            <div className="user-box">
+              <input
+                type="text"
+                id="username"
+                placeholder="USER"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+              />
+            </div>
+            <div className="password-box">
+              <input
+                type="password"
+                id="password"
+                placeholder="********"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            <div className="button-box">
+            <button type="submit">ENTER</button>
+            </div>
           </div>
         </form>
       </div>

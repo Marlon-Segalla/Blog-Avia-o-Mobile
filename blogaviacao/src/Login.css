@@ -10,7 +10,7 @@
 
   /* background-color: #767c8a; */
 
-  background-image: url('C:\\DEV_P\\REACTJS\\Blog-Avia-o-Mobile\\blogaviacao\\src\\img\\turbina.jpg');
+  background-image: url('C:\\DEV_P\\REACTJS\\Blog-Avia-o-Mobile\\blogaviacao\\src\\img\\blue.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   width: 83vh;
   height: 35vh;
 
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
 
   display: flex;
@@ -46,7 +46,6 @@
   text-align: center;
 
   color: white;
- 
 }
 
 .login-container h2 {
@@ -63,6 +62,7 @@
   font-size: 100px;
   color: #fff6e8;
   letter-spacing: -10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .Login-header {
@@ -75,7 +75,7 @@
   margin: 0;
   padding: 0;
   
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
 
   display: flex;

@@ -13,7 +13,7 @@ function Login({ onLogin }) {
 
   return (
     <div className="App">
-      <div className="login-container">
+      <div className="login-container glass">
         <header className="Login-header">
         </header>
         <h2>AVIATION BLOG</h2>
@@ -23,7 +23,7 @@ function Login({ onLogin }) {
             <input
               type="text"
               id="username"
-              placeholder="USUÁRIO"
+              placeholder="ex: luis.sodre"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               required

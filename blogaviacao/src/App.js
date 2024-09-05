@@ -1,6 +1,5 @@
 // src/App.js
 import React, { useState } from 'react';
-import logo from './logo.png';
 import './App.css';
 import Login from './Login';
 
@@ -18,9 +17,8 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="Box-app">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <h1>AVIATION BLOG</h1>
       </header>
       <body className="App-body">

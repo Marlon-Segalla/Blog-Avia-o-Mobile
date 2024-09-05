@@ -1,28 +1,26 @@
 *{
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.App {
+.Box-app {
+  height: 100%;
+  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
-}
+  flex-direction: column;
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-image: url('./img/turbina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 50vh;
+  width: 100%;
+  min-height: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,15 +28,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-body {
-  background-color: #282c34;
-  min-height: 50vh;
+  width: 100%;
+  height: 85.7vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 .App-footer {
-  background-color: #2f3239;
+  width: 100%;
+  height: 5vh;
   color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-link {

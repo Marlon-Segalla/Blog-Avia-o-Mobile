@@ -15,6 +15,7 @@
 
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /*----------------------------------------GLASS EFECT-------------------------------------*/
@@ -54,7 +55,6 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
   color: white;
 }

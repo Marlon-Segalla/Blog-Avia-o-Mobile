@@ -70,7 +70,7 @@
   justify-content: center;
   text-align: center;
 
-  font-size: 90px;
+  font-size: 80px;
   color: #fff6e8;
   letter-spacing: -10px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -109,7 +109,7 @@
 }
 
 .text-box span {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .user-box {
@@ -148,7 +148,7 @@ input {
 
   background-color: rgba(26, 55, 99, 0.0);
 
-  font-size: 1rem;
+  font-size: 15px;
   color: rgba(255, 246, 232, 0.8);
 }
 

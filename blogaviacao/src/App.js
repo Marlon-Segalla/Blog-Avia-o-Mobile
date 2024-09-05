@@ -18,13 +18,13 @@ function App() {
 
   return (
     <div className="Box-app">
-      <header className="App-header">
+      <header className="App-header glass">
         <h1>AVIATION BLOG</h1>
       </header>
       <body className="App-body">
         <h2>Blog Aviação</h2>
       </body>
-      <footer className="App-footer">
+      <footer className="App-footer glass">
         <p>Blog de Aviação Agosto de 2077</p>
       </footer>
     </div>

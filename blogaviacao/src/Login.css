@@ -179,7 +179,7 @@ button {
   height: 90%;
 
   border: none;
-  border-radius: 10px;
+  border-radius: 25px;
 
   font-size: 18px;
   font-weight: bold;
@@ -190,4 +190,9 @@ button {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
   cursor: pointer;
+}
+
+button:hover{
+    border: solid 2px #cfcfcf;
+    transform: scale(0.98);
 }

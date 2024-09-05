@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,14 +7,12 @@
 .Box-app {
   width: 100%;
   height: 100vh;
-
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  background-image: url('./img/turbina.jpg');
+  background-image: url('./img/esquad_2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +20,7 @@
 
 .App-header {
   width: 90%;
-  min-height: 20%;
+  min-height: 15%;
 
   margin-top: 10px;
   margin-bottom: 10px;
@@ -31,7 +29,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -41,12 +38,95 @@
   height: 85.7vh;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
 }
-.App-footer {
-  width: 95%;
-  height: 5vh;
-  color: white;
 
+.left-container {
+  width: 40%;
+  height: 80%;
+
+  background-color: #5481d4;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 10%;
+  height: 90%;
+  border-radius: 30px;
+  margin: 10px;
+  transition: all .5s;
+}
+
+.card:focus {
+  border: solid 2px #cfcfcf;
+  transform: scale(0.98);
+  width: 90%;
+}
+
+.right-container{
+  width: 40%;
+  height: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container-top {
+  height: 50%;
+  width: 100%;
+  background-color: #26a0d8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-container-bottom {
+  height: 50%;
+  width: 100%;
+  background-color: #204fe7;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 45%;
+  height: 90%;
+  border-radius: 30px;
+  margin: 5px;
+  transition: all .5s;
+}
+
+.post-main {
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  margin: 5px;
+  transition: all .5s;
+}
+
+.post:focus {
+  border: solid 2px #cfcfcf;
+  transform: scale(0.98);
+  width: 100%
+}
+
+.App-footer {
+  width: 90%;
+  height: 5vh;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,3 +135,12 @@
 .App-link {
   color: #61dafb;
 }
+
+/* Small */
+@media (min-width: 768px) {.App-body {width: 750px;}}
+
+/* Medium */
+@media (min-width: 992px) {.App-body {width: 970px;}}
+
+/* Large */
+@media (min-width: 1200px) {.App-body {width: 1170px;}}

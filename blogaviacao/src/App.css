@@ -12,32 +12,31 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url('./img/esquad_2.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .App-header {
-  width: 90%;
-  min-height: 15%;
+  width: 100%;
+  min-height: 10%;
 
-  margin-top: 10px;
   margin-bottom: 10px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  background-color: #373c4d;
+
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
 }
 
 .App-body {
   width: 100%;
   height: 85.7vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
   display: flex;
 }
 
@@ -62,7 +61,7 @@
 }
 
 .card:focus {
-  border: solid 2px #cfcfcf;
+  border: solid 2px #fff;
   transform: scale(0.98);
   width: 90%;
 }
@@ -120,13 +119,14 @@
 }
 
 .App-footer {
-  width: 90%;
+  width: 100%;
   height: 5vh;
 
   margin-top: 10px;
-  margin-bottom: 10px;
 
   color: white;
+  background-color: #373c4d;
+
   display: flex;
   justify-content: center;
   align-items: center;

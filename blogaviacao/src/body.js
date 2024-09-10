@@ -5,7 +5,7 @@ function Body() {
   return (
     <main className="App-body">
         <section className="one">
-          <section className="left-container">
+          <section className="first-container">
             <div className="card glass" id="card_1" tabIndex="0"></div>
             <div className="card glass" id="card_2" tabIndex="0"></div>
             <div className="card glass" id="card_3" tabIndex="0"></div>
@@ -14,15 +14,12 @@ function Body() {
         </section>
 
         <section className="two">
-          <section className="right-container">
-            <section className="right-container-top">
-              <div className="post glass" id="post_1" tabIndex="0"></div>
-              <div className="post glass" id="post_2" tabIndex="0"></div>
-            </section>
-            <section className="right-container-bottom">
-              <div className="post glass" id="post_3" tabIndex="0"></div>
-              <div className="post glass" id="post_4" tabIndex="0"></div>
-            </section>
+          <section className="second-container">
+              <div className="main-post glass" tabIndex="0"></div>
+              <div className="second-post">
+                <div className="post glass" tabIndex="0"></div>
+                <div className="post glass" tabIndex="0"></div>
+              </div>
           </section>
         </section>
 

@@ -4,9 +4,6 @@ import './App.css';
 function Body() {
   return (
     <main class="App-body">
-        <section class="Main-Post">
-            <div class="post-main glass"></div>
-        </section>
         <section class="left-container">
             <div class="card glass" id="card_1" tabIndex="0"></div>
             <div class="card glass" id="card_2" tabIndex="0"></div>

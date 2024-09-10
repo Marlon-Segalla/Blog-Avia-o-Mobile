@@ -22,11 +22,10 @@
   margin-bottom: 10px;
 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 
-  background-color: #373c4d;
+  background-color: #292929;
 
   font-size: calc(10px + 2vmin);
   color: #fff;
@@ -37,7 +36,10 @@
   height: 85.7vh;
   font-size: calc(10px + 2vmin);
   color: #fff;
+
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .left-container {
@@ -104,14 +106,6 @@
   transition: all .5s;
 }
 
-.post-main {
-  width: 100%;
-  height: 30px;
-  border-radius: 30px;
-  margin: 5px;
-  transition: all .5s;
-}
-
 .post:focus {
   border: solid 2px #cfcfcf;
   transform: scale(0.98);
@@ -120,18 +114,43 @@
 
 .App-footer {
   width: 100%;
-  height: 5vh;
+  height: 8vh;
 
   margin-top: 10px;
 
-  color: white;
-  background-color: #373c4d;
+  background-color: #292929;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.App-footer .icon-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 5vh;
+}
+
+.App-footer .icon-bar a{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.App-footer .icon-bar img {
+  width: 35px;
+  height: 35px;
+}
+
+.App-footer .icon-bar a:hover img {
+  opacity: 0.7; /* Efeito ao passar o mouse por cima */
+}
 .App-link {
   color: #61dafb;
 }

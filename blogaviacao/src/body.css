@@ -1,0 +1,87 @@
+/* body.css */
+.App-body {
+    width: 100%;
+    height: 90%;
+    font-size: calc(10px + 2vmin);
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+  
+section {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory;
+    background-color: #292929;
+}
+  
+.left-container {
+    width: 40%;
+    height: 80%;
+    background-color: #5481d4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 10%;
+    height: 90%;
+    border-radius: 30px;
+    margin: 10px;
+    transition: all 0.5s;
+}
+  
+.card:focus {
+    border: solid 2px #fff;
+    transform: scale(0.98);
+    width: 90%;
+}
+  
+.right-container {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.right-container-top {
+    height: 50%;
+    width: 100%;
+    background-color: #26a0d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.right-container-bottom {
+    height: 50%;
+    width: 100%;
+    background-color: #204fe7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    width: 45%;
+    height: 90%;
+    border-radius: 30px;
+    margin: 5px;
+    transition: all 0.5s;
+}
+  
+.post:focus {
+    border: solid 2px #cfcfcf;
+    transform: scale(0.98);
+    width: 100%;
+}
+  

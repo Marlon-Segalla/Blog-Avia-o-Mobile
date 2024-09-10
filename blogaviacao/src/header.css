@@ -1,0 +1,15 @@
+.App-header {
+    width: 100%;
+    min-height: 10%;
+    margin-bottom: 1px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #292929;
+  }
+  
+  .App-header h1 {
+    font-size: calc(15px + 2vmin);
+    color: #fff;
+  }

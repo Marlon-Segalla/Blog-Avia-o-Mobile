@@ -14,8 +14,6 @@ function Login({ onLogin }) {
   return (
     <div className="App">
       <div className="login-container glass">
-        <header className="Login-header">
-        </header>
         <h2>AVIATION BLOG</h2>
         <form onSubmit={handleSubmit}>
           <div className="login-box glass2">
@@ -26,7 +24,7 @@ function Login({ onLogin }) {
               <input
                 type="text"
                 id="username"
-                placeholder="USER"
+                placeholder="luis.sodre"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required

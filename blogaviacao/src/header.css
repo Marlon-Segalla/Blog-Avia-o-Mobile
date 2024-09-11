@@ -8,7 +8,7 @@
     background-color: #292929;
   }
   
-  .App-header h1 {
-    font-size: calc(15px + 2vmin);
-    color: #fff;
-  }
+.App-header h1 {
+  font-size: calc(15px + 2vmin);
+  color: #fff;
+}

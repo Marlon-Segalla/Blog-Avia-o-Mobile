@@ -1,11 +1,12 @@
 /* body.css */
 .App-body {
     width: 100%;
-    height: 280vh;
+    height: 400vh;
     font-size: calc(10px + 2vmin);
     display: inline-block;
     align-items: center;
     justify-content: center;
+    background-color: #292929;
 }
   
 section {
@@ -16,7 +17,6 @@ section {
     align-items: center;
     scroll-snap-align: start;
     scroll-snap-type: y mandatory;
-    background-color: #292929;
 }
 
   
@@ -30,7 +30,7 @@ section {
 }
 
 .card {
-    width: 25px;
+    width: 8%;
     height: 70%;
     border-radius: 30px;
     margin: 5px;
@@ -59,6 +59,12 @@ section {
     transition: all 0.5s;
 }
 
+.main-post:focus {
+    border: solid 2px #fff;
+    transform: scale(0.98);
+    width: 55%;
+}
+
 .second-post {
     width: 40%;
     height: 100%;
@@ -82,6 +88,7 @@ section {
 .post:focus {
     border: solid 2px #cfcfcf;
     transform: scale(0.98);
-    width: 100%;
+    width: 70%;
+    height: 60%;
 }
   
